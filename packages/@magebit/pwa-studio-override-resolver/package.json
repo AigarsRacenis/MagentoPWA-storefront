@@ -1,0 +1,20 @@
+{
+  "name": "@magebit/pwa-studio-override-resolver",
+  "version": "1.0.0",
+  "description": "Override files from PWA Studio packages.",
+  "main": "index.js",
+  "files": [
+    "lib/*",
+    "index.js"
+  ],
+  "author": "Magebit <info@magebit.com>",
+  "license": "MIT",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./index"
+    }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "~11.1.0"
+  }
+}

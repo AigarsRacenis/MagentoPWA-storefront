@@ -1,0 +1,26 @@
+.root {
+    margin: 2rem 1rem 0 1rem;
+}
+
+.tabList {
+    border-bottom: 1px solid #ccc;
+}
+
+.tabButton {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tabButton:hover {
+    background-color: #f0f0f0;
+}
+
+.activeTab {
+    border-bottom: 2px solid #1f39ff;
+    font-weight: bold;
+}
+
+.tabContent {
+    padding: 2rem 0;
+}

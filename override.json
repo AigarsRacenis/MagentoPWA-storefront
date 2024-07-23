@@ -1,0 +1,5 @@
+{
+    "overridePaths": {
+        "src/overrides/venia-ui/components": "@magento/venia-ui/lib/components"
+    }
+}
